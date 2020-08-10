@@ -1,0 +1,12 @@
+device    usb2       60000000 bytes/sec
+device    kb         10 bytes/sec
+device    ssd        240000000 bytes/sec
+device    hd         80000000 bytes/sec
+reboot
+
+process 1 10 {
+    exit        300
+}
+process 2 100 {
+    exit        150
+}
